@@ -1,0 +1,28 @@
+{
+    "extends": "../tslint.json",
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute",
+            [
+                "",
+                "anuencia21",
+                "fuse"
+            ],
+            "camelCase"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            [
+                "",
+                "anuencia21",
+                "fuse"
+            ],
+            [
+                "kebab-case",
+                "camelCase"
+            ]
+        ]
+    }
+}
